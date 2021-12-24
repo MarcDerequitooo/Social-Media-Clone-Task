@@ -1,0 +1,248 @@
+body {
+	background-color: black;
+}
+
+.upload_post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/*.upload_form{
+    height: 300px;
+    width: 400px;
+	padding: 30px;
+	border-radius: 15px;
+}*/
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.login_form {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background-color: whitesmoke;
+	border-radius: 15px;
+}
+.register_form{
+    position: absolute;
+    top: 75px;
+    left: 450px;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background-color: whitesmoke;
+	border-radius: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    opacity: 50%;
+  }
+  
+  .active {
+      color: black;
+    background-color:whitesmoke;
+  }
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.fa:hover{
+    opacity: .7;
+}
+.input_btn {
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+.input_btn:hover{
+	opacity: .7;
+}
+.user_button {
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+.user_button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+.welcome{
+    position: relative;
+    color: black;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    top: -7px;
+}
+.nav-btn{
+    color:white;
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    top: -90px;
+    left: 70px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.nav-btn:hover{
+    opacity: 50%;
+}
+.home-btn{
+    color:white;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    top: -67px;
+    left:15px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.home-btn:hover{
+    opacity: 50%;
+}
+.timeline{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.timeline_post{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.timeline_img{
+    display: flex;
+    width: 50px;
+    height: 250px;
+}
+.timeline_user{
+    color: white;
+    width: 300px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.timeline_caption{
+    color: white;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+.user_det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
